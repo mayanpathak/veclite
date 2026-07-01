@@ -1,0 +1,14 @@
+[package]
+name = "e2e_tests"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.39.3", features = ["full"] }
+ tonic = "0.12.1"
+ prost = "0.13.1"
+ uuid = { version = "1.10.0", features = ["v4"] }
+anyhow = "1.0"
+ clap = { version = "4.5.16", features = ["derive"] }
+[build-dependencies]
+ tonic-build = "0.12"

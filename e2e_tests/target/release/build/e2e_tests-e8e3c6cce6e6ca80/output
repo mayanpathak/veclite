@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=../protos/database.proto
+cargo:rerun-if-changed=../protos
